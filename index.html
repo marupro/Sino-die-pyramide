@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive coffee shop website design</title>
+    <title>Sino-die-pyramide</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -59,8 +59,9 @@
 
             </h1>
             <p class="lead"> Restaurant - Die Pyramide</p>
-            <h1 class="heading-primary">Internationale spezialitaten</h1>
-            <a href="#" class="book-now">Book now</a>
+            <h1 class="heading-primary">Internationale spezialitaten</h1><br><br><br><br>
+            <p class="lead-descrizione"> Bei uns ist für jeden Geschmack was dabei ob Arabisch, italienisch oder doch deutsche Gerichte. Lassen Sie sich entführen in die europäische Küche. Hier ist für jeden was dabei . Wir freuen uns auf Sie.</p>
+            <a href="/images/sino_menu.pdf" class="book-now">view menu now</a>
         </div>
     </div>
 
@@ -82,10 +83,7 @@
 
         <div class="content">
             <h3>what makes our Restaurant special?</h3>
-            <p>Hier sagen Sie mir, was ich schreiben soll, es sollte eine Beschreibung der Tatsache sein, dass Ihr Restaurant im Vergleich zu den anderen etwas Besonderes ist!
-
-                sobald du mir sagst was ich schreiben soll füge ich es ein
-                -maru</p>
+            <p>Ab dem 26.11.2021 bieten wir leckere Internationale Speisen an von Arabisch bis Französisch. Bei uns ist für jeden Geschmack was dabei. Natürlich haben wir auch leckere Speisen für die kleinen da. Außerdem bitten wir täglich von 12-15 Uhr Mittagsgerichte zu vergünstigten Preise an. Also kommen Sie gerne vorbei und lassen Sie sich diese köstlichen Gerichte nicht entgehen. Gerne dürfen sie uns auch bei unseren Arabischen Sino Restaurant in Burg auf Fehmarn besuchen. Derzeit bitten wir dort ein leckeres Frühstücks Buffet sowie ein Mittags Brunch an und natürlich wie gewohnt die ganz normale Speisekarte. Wir freuen uns auf Sie.  Ihr Sino Restaurant Team</p>
             <a href="#" class="btn">learn more</a>
         </div>
 
@@ -190,21 +188,21 @@
 
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.551820765954!2d10.64925271585887!3d53.88639528009572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b20c17056679e7%3A0x8e4a059ad4d6270b!2sRestaurant%20Pyramide!5e0!3m2!1sit!2sit!4v1636902509436!5m2!1sit!2sit" allowfullscreen="" loading="lazy"></iframe>
 
-        <form action="">
+        <form action="/php/index.php" method="post">
             <h3>get in touch</h3>
             <div class="inputBox">
                 <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
+                <input name="name" type="text" placeholder="name">
             </div>
             <div class="inputBox">
                 <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
+                <input type="email" placeholder="email" name="email">
             </div>
             <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="number">
+                <span class="fas fa-envelope-open-text"></span>
+                <input type="text" placeholder="text us" required name="text">
             </div>
-            <input type="submit" value="contact now" class="btn">
+            <input name="send"type="submit" value="contact now" class="btn">
         </form>
 
     </div>
@@ -219,7 +217,52 @@
 <!-- footer section starts  -->
 
 <section class="footer">
+    <div class="box-container">
+        <div class="left">
+            <div class="boxh">
+                <h3>opening hours</h3><br>
+                <div class="hours">
+                    <p> monday    : <i> 12:00am - 15:00pm </i><i>17:00pm - 22:00pm</i> </p>
+                    <p> tuesday   : <i> 12:00am - 15:00pm </i><i>17:00pm - 22:00pm</i> </p>
+                    <p> wednesday : <i> 12:00am - 15:00pm </i><i>17:00pm - 22:00pm</i> </p>
+                    <p> friday    : <i> 12:00am - 15:00pm </i><i>17:00pm - 23:00pm</i> </p>
+                    <p> saturday  : <i> 12:00am - 15:00pm </i><i>17:00pm - 23:00pm</i> </p>
+                    <p> sunday    : <i> closed </i> </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right">
+            
+            <div class="box-c">
+                <form action="" class="form">
+                    <div class="contact-heading">
+                        <h3 class="title-box-c">Call Us Or send an Email</h3>
+                    </div>
+                    <div class="contact-group">
+                        <i id="ok"class="fas fa-phone"></i>
+                        <p class="number">+393383376448</p>
+                    </div>
+                    <div class="contact-group">
+                        <i id="ok"class="fas fa-phone"></i>
+                        <p class="number">+393383376448</p>
+                    </div>
+                    <div class="contact-group">
+                        <i id="ok"class="fas fa-envelope"></i>
+                        <p class="number">..@gmail.com</p>
+                    </div>
+                    <div class="contact-group">
+                        <i id="ok"class="fas fa-map"></i>
+                        <p class="number">Germany</p> 
+                    </div>
+                </form>
+                
 
+            </div>
+        </div>
+        
+
+    </div>
     <div class="share">
         <a href="https://www.facebook.com/Sino-arabische-spezialit%C3%A4ten-113281573796427/" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-twitter"></a>
