@@ -564,9 +564,7 @@ section{
 .number{
     color: white;
     font-size: unset;
-    padding: 2
-rem
-;
+    padding: 5rem;
     font-family: 'Font Awesome 5 Brands';
     text-align: center;
 }
