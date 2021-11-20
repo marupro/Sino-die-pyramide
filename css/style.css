@@ -78,7 +78,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 7%;
+    padding:0.5rem 7%;
     border-bottom: var(--border);
     position: fixed;
     top:0; left: 0; right: 0;
@@ -256,7 +256,7 @@ section{
     font-weight: 300;
     letter-spacing: 1px;
     text-align: initial;
-    font-family: cursive;
+    font-family: inherit;
 }
 .book-now:visited,
 .book-now:link{
@@ -282,6 +282,7 @@ section{
     background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0));
     background-size: cover;
     background-position: center;
+    padding: 1rem;
 }
 
 .home .content{
@@ -513,19 +514,18 @@ section{
 }
 .left{
     background-color:var(--main-color);
-    width: 50%;
+    width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
 }
 .right{
     background-color: #010103;
-    width: 50%;
+    width: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position:relative;
 }
-
 
 .form{
     width: 100%;
@@ -563,10 +563,10 @@ section{
 }
 .number{
     color: white;
-    font-size: unset;
-    padding: 5rem;
-    font-family: 'Font Awesome 5 Brands';
-    text-align: center;
+    font-size: large;
+    padding: 2rem
+;
+font-family: 'Font Awesome 5 Brands';
 }
 .box-c{
     padding: 5rem;
@@ -574,8 +574,8 @@ section{
 }
 
 .boxh{
-        font-size: initial;
-        text-align: -webkit-right;
+        font-size: large;
+        text-align: center;
         color: white;
         padding: 3rem;
 }
