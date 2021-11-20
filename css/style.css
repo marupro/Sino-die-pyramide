@@ -513,14 +513,14 @@ section{
 }
 .left{
     background-color:var(--main-color);
-    width: 100%;
+    width: 50%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 
 }
 .right{
     background-color: #010103;
-    width: 100%;
+    width: 50%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position:relative;
@@ -562,10 +562,12 @@ section{
 }
 .number{
     color: white;
-    font-size: large;
-    padding: 2rem
+    font-size: unset;
+    padding: 2
+rem
 ;
-font-family: 'Font Awesome 5 Brands';
+    font-family: 'Font Awesome 5 Brands';
+    text-align: center;
 }
 .box-c{
     padding: 5rem;
@@ -573,8 +575,8 @@ font-family: 'Font Awesome 5 Brands';
 }
 
 .boxh{
-        font-size: large;
-        text-align: center;
+        font-size: initial;
+        text-align: -webkit-right;
         color: white;
         padding: 3rem;
 }
